@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Movie App</title>
+    <!-- Fontawesome Icons -->
+    <link rel="stylesheet" href="./icons/css/all.min.css" />
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"/>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-film"></i>
+            <input type="text" placeholder="Type Movie Title" />
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+        <div class="not-found">
+            <img src="images/404.png" alt="..." />
+            <p>Oops! Movie not found :/</p>
+        </div>
+        <div class="movie-box">
+            <img src="" alt="..." />
+            <p class="title"></p>
+            <p class="genre"></p>
+        </div>
+        <div class="scrollable">
+            <div class="movie-details">
+                <div class="rating-details">
+                    <i class="fa-solid fa-star"></i>
+                    <div class="text">
+                        <span></span>
+                        <p>Rating</p>
+                    </div>
+                </div>
+                <div class="director-details">
+                    <i class="fa-solid fa-user-tie"></i>
+                    <div class="text">
+                        <span></span>
+                        <p>Director</p>
+                    </div>
+                </div>
+                <div class="plot-details">
+                    <i class="fa-solid fa-align-left"></i>
+                    <div class="text">
+                        <span></span>
+                        <p>Plot</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JS File -->
+    <script src="script1.js"></script>
+</body>
+</html>
