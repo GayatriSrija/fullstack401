@@ -5,7 +5,7 @@ const admin = require('firebase-admin');
 const bcrypt = require('bcryptjs');
 
 const app = express();
-const port = 4000;
+const port = 5000;
 
 // Initialize Firebase Admin SDK
 const serviceAccount = require('./key.json');
